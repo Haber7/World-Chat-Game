@@ -1,0 +1,60 @@
+form#name_form{
+    width: 20%;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 40px !important;
+    position: relative;
+}
+    label, form#name_form > input[type="text"], p{
+        margin: 5px;
+        display: block;
+    }
+    form#name_form > input[type="submit"]{
+        position: absolute;
+        right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+div#game{
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+    div#chatbox{
+        width: 80%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        text-align: left;
+        overflow: scroll;
+    }
+    form#chat_form{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+        form#chat_form > input[type="text"]{
+            width: 99%;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px;
+            display: block;
+        }
+        form#chat_form > input[type="submit"]{
+            position: absolute;
+            margin-top: 10px;
+            right: 0px;
+        }
+            span#green{
+                color: green;
+            }

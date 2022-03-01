@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broadcast Example</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+    <form id="name_form" action="" method="post">
+        <p>The page at http://localhost says:</p>
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name" />
+        <input type="submit" value="Ok" />
+    </form>
+    <div id="game">
+        <h3>Guess The Word:</h3>
+        <h1>_ _ _ _ _ _</h1>
+        <div id="chatbox"></div>
+        <form id="chat_form">
+            <input type="text" id="chat_input" placeholder="Enter your guess word" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
